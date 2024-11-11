@@ -1,0 +1,109 @@
+/* General Styles */
+.user-auth {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form_container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Header Styles */
+  h2 {
+    color: #ff6f00; /* Orange Color */
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Form Inputs */
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  input[type="text"]:focus {
+    border-color: #ff6f00;
+    outline: none;
+  }
+  
+  label {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+    display: block;
+  }
+  
+  /* Submit Button */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e65c00;
+  }
+  
+  /* Link Styles */
+  span {
+    display: block;
+    margin-top: 1rem;
+    font-size: 14px;
+  }
+  
+  a {
+    color: #ff6f00;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #e65c00;
+  }
+  
+  /* Toast Container */
+  .Toastify__toast-container {
+    z-index: 9999;
+  }
+  
+  .Toastify__toast {
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .Toastify__toast--success {
+    background-color: #4caf50;
+  }
+  
+  .Toastify__toast--error {
+    background-color: #f44336;
+  }
+  

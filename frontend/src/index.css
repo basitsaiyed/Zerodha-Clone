@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: "Inter", serif;
+    font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #414345 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link{
+  margin-left: 30px;
+  padding: 15px;
+  font-weight: 400;
+}
+
+.nav-link:hover{
+  color:#387ed1 !important;
+}
+
+.navbar-nav{
+  font-weight: 400 !important;
+}
+
+.foot-links{
+  text-decoration: none;
+  color: #414345;
+  margin: 10px 0 10px 0;
+}
+
+.foot-links:hover{
+  color:#387ed1;
+}
+
+.fa-brands{
+  font-size: larger;
+  padding: 5px 10px 5px 10px;
+  color: #545455;
+}
+
+.foot-head{
+  font-size: large !important;
+  font-weight: 600 !important;
+}
+
+.foot-last{
+  text-align: center;
+}
+
+.foot-last:hover{
+  color: #387ed1;
+}
+
+.signup-btn{
+  background-color: #387ed1 !important;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  border-radius: 3px !important ;
+  padding: 8px 30px !important;
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
+
+.signup-btn:hover{
+  background-color: #000000 !important;
+}
+
+.p-text{
+  font-size: 10px;
+}
+
+#supportHero{
+  color: white;
+  background-color: #387ed1;
+}
+
+#supportHero a{
+  color: white;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+.searchBox{
+  height: 60px !important;
+  text-align: left !important;
+    margin: auto !important;
+    margin-bottom: 15px !important;
+    padding: 10px !important;
+    /* padding-left: 0 !important; */
+    background: #fff !important;
+    border-radius: 2px !important;
+}
